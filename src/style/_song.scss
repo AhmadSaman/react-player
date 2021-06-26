@@ -7,6 +7,7 @@
     img{
         width: 30%;
         border-radius: 50%;
+     
     }
     h2{
         padding: 3rem 1rem 1rem 1rem;
@@ -23,3 +24,14 @@
     }
     
 }
+.rotation{
+    animation: rotation 60s infinite linear;
+}
+@keyframes rotation {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(359deg);
+    }
+  }
